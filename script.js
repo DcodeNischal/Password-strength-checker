@@ -41,7 +41,7 @@ function getPasswordStrength(password){
         if(strength < 2){
             passwordStrengthSpans[0].innerText = "Weak";
             passwordStrengthSpans[0].style.color = "#111";
-            passwordStrengthSpans[1].style.background = "#d13636";
+            passwordStrengthSpans[1].style.background = "#720000";
             body.style.background = "#d13636";
 
         } else if(strength >= 2 && strength <= 4){
